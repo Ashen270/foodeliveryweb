@@ -50,12 +50,12 @@ const Cart = () => {
             <hr />
             <div className="cart-total-detail">
             <p>Delivery Fee</p>
-            <p>Rs {400}.00</p>
+            <p>Rs {getTotalCartAmount()===0?0:400}.00</p>
             </div>
             <hr />
             <div className="cart-total-detail">
               <b>Total</b>
-              <b>Rs {getTotalCartAmount()+400}.00</b>
+              <b>Rs {getTotalCartAmount()===0?0:getTotalCartAmount()+400}.00</b>
             </div>
           </div>
           <button onClick={()=>navigate('/order')}>Proceed To Checkout</button>
@@ -64,7 +64,7 @@ const Cart = () => {
           <div>
             <p>If you have promo code enter it here</p>
             <div className="cart-promo-code-input">
-              <input type="text" placeholder='promo-code'/>
+              <input type="text" placeholder='promo code'/>
               <button>Submit</button>
             </div>
           </div>
