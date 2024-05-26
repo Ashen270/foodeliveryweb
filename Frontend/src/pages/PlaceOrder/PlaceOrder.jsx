@@ -21,7 +21,7 @@ const PlaceOrder = () => {
 
         <div className="multi-fields">
           <input type="text" placeholder='City' />
-          <input type="text" placeholder='State' />
+          <input type="text" placeholder='Province' />
         </div>
 
         <div className="multi-fields">
