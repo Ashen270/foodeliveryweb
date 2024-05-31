@@ -1,8 +1,6 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
     position: relative;
 }
 
@@ -20,8 +18,9 @@
 
 .header-contents h2{
     font-weight: 500;
-    color: white;
+    color: rgb(36, 221, 98);
     font-size: max(4.5vw,22px);
+   
 }
 
 .header-contents p{

@@ -30,7 +30,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border:  1px solid tomato;
+    border:  1px solid #40A578;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -51,7 +51,7 @@
     position: realative;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: #40A578;
     border-radius: 5px;
     top: -8px;
     right: -8px;
