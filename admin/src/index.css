@@ -24,3 +24,6 @@ font-family: Outfit;
   background-color: #a9a9a9;
 }
 
+.app-content{
+  display: flex;
+}
