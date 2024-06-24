@@ -20,12 +20,14 @@
     font-weight: 500;
     color: rgb(36, 221, 98);
     font-size: max(4.5vw,22px);
+    text-shadow: 0 0 15px #000000;
    
 }
 
 .header-contents p{
     color: white;
     font-size: 1vw;
+    text-shadow: 0 0 10px #000000;
 }
 
 .header-contents button{
