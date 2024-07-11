@@ -71,7 +71,7 @@ const Add = ({url}) => {
               <option value="Salad">Salad</option>
               <option value="Rolls">Rolls</option>
               <option value="Desert">Desert</option>
-              <option value="Sandwich">Sandwich</option> {/* Corrected spelling */}
+              <option value="Sandwich">Sandwich</option> 
               <option value="Cake">Cake</option>
               <option value="Pure Veg">Pure Veg</option>
               <option value="Pasta">Pasta</option>
@@ -80,7 +80,7 @@ const Add = ({url}) => {
           </div>
           <div className="add-price flex-col">
             <p>Product Price</p>
-            <input onChange={onChangeHandler} value={data.price} type="number" name='price' placeholder='Rs.200' /> {/* Lowercase "number" */}
+            <input onChange={onChangeHandler} value={data.price} type="number" name='price' placeholder='Rs.200' /> 
           </div>
         </div>
         <button type='submit' className='add-button'>ADD</button>
