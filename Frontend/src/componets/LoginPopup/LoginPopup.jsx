@@ -9,7 +9,7 @@ const LoginPopup = ({setShowLogin}) => {
 
 
 
-  const {url,setToken} = useContext(StoreContext);
+  const {baseURL,setToken} = useContext(StoreContext);
 
     const[currState,setCurrState] = React.useState("Sign Up");
     const [data, setData] = React.useState({
@@ -26,7 +26,7 @@ const LoginPopup = ({setShowLogin}) => {
 
    const onLogin =  async (event) => {
         event.preventDefault();
-        let newUrl = url;
+        let newUrl = baseURL;
         if (currState==="Login") {
           newUrl += "/api/user/login";
           
